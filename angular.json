@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bootstrap-routing-lifecycle-app"
+    }
+  },
+  "defaultProject": "bootstrap-routing-lifecycle-app",
+  "cli": {
+    "analytics": false
+  }
 }
