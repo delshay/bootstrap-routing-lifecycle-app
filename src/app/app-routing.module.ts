@@ -19,7 +19,7 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path:'page-not-found',
+    path: 'page-not-found',
     component: PageNotFoundComponent
   }
 ];
