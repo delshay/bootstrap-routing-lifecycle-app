@@ -7,7 +7,7 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 })
 export class TodoItemComponent implements OnInit {
   @Input() todoItem: string;
-  @Output() onChangeMe = new EventEmitter();
+  @Output() onChange = new EventEmitter();
 
   constructor() {
   }
@@ -16,6 +16,6 @@ export class TodoItemComponent implements OnInit {
   }
 
   buttonHasBeenClicked() {
-    this.onChangeMe.emit();
+    this.onChange.emit();
   }
 }
